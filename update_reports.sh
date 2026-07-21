@@ -4,6 +4,10 @@
 # ./update_reports.sh \
 #   /path/to/new_2D_report.zip \
 #   /path/to/new_3D_report.zip
+# then commit and push
+# git add -A
+# git commit -m "Update 2D and 3D test reports"
+# git push
 
 set -euo pipefail
 
