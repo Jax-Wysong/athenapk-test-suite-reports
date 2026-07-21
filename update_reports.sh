@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+## How to update reports
+# ./update_reports.sh \
+#   /path/to/new_2D_report.zip \
+#   /path/to/new_3D_report.zip
+
 set -euo pipefail
 
 usage() {
